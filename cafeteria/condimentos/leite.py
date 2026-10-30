@@ -7,4 +7,4 @@ class leite(Adicionais):
         return self.bebida.descricao() + ", leite"
 
     def custo(self):
-        return self.bebida.custo() + 5
+        return self.bebida.custo() + 7
