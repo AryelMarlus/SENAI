@@ -7,6 +7,10 @@ from cafeteria.produtos_base.cafe import cafe
 class TestCafe(unittest.TestCase):
 
     def setUp(self):
+        """
+        Café utilizando decorator utlizando café base
+        :return:
+        """
         self.cafe = cafe()
 
 
